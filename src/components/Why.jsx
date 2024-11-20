@@ -8,7 +8,13 @@ import atendimento from '../assets/images/why/atendimento.svg';
 function Why() {
   return (
     <div id="sobre" className="container mx-auto bg-custom-purple-nova h-[100vh] pt-20 ">
-  <h1 className="text-center text-white text-4xl pb-10 mb-12">PORQUE ESCOLHER A SUPER NOVA</h1>
+      <div className="flex justify-center items-center">
+        <h1 className="text-white text-[40px] font-bold pb-4 mb-12 border border-b-4 rounded-full px-6 ">
+          Porque escolher a Supernova?
+        </h1>
+      </div>
+
+
   <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 sm:gap-0 justify-items-center">
     {[
       { src: carta, alt: "Carta", text: "Os clubes de poker mais fáceis online" },

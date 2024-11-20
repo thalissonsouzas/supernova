@@ -15,10 +15,11 @@ const LoginPage = () => {
   return (
     <div className='w-screen h-screen flex font-montserrat p-0'>
       {/* Header */}
+ 
       <Header />
 
       {/* Seções da página */}
-      <main className='pt-0 w-screen'>
+      <main className='pt-0 '>
         {/* <MainBanner /> */}
         {/* Home Section */}
 
@@ -32,7 +33,7 @@ const LoginPage = () => {
     <Zapzap />
       </main>
 
-           </div>
+      </div>
   );
 };
 
