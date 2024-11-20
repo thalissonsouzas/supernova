@@ -18,7 +18,7 @@ export default {
 
       },
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'], // Adiciona a fonte "Poppins" e a fonte fallback "sans-serif"
       },
       fontSize: {
         'p14': '14px',

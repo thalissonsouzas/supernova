@@ -7,7 +7,7 @@ import atendimento from '../assets/images/why/atendimento.svg';
 
 function Why() {
   return (
-    <div id="sobre" className="container mx-auto bg-custom-purple-nova h-[100vh] pt-20 ">
+    <div id="sobre" className=" mx-auto bg-custom-purple-nova h-[130vh] max-h-[800px] pt-20 ">
       <div className="flex justify-center items-center">
         <h1 className="text-white text-[40px] font-bold pb-4 mb-12 border border-b-4 rounded-full px-6 ">
           Porque escolher a Supernova?

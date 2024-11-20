@@ -5,8 +5,7 @@ function OndeEstamos() {
 
   return (
 
-    <section id='location' className="w-full py-16 px-4 bg-custom-yellow">
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <section id='location' className="w-full py-16 px-4 bg-custom-purple-nova">      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
   {/* Box para o título e endereço */}
   <div className=" flex-col justify-start border p-4 mx-auto lg:mx-0  ">
     <div className="flex flex-col items-center lg:items-start">

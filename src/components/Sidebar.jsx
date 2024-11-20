@@ -17,7 +17,7 @@ function Sidebar() {
         <aside className='bg-slate-50 h-screen w-60 shadow-lg flex-none'>
             <div className='w-full'>
                 <img src={logo} alt='Logo' className='flex p-4 w' />
-                <menu className='flex flex-col items-start w-full text-custom-green font-montserrat text-p14 font-semibold leading-tight text-left'>
+                <menu className='flex flex-col items-start w-full text-custom-green font-poppins text-p14 font-semibold leading-tight text-left'>
                     <div 
                         className='flex items-center w-full p-4 cursor-pointer' 
                         onClick={() => handleMenuClick('Notas fiscais')}

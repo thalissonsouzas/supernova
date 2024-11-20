@@ -6,6 +6,7 @@ import PorqueEscolher from '../components/PorqueEscolher';
 import Clubes from '../components/Clubes';
 import Why from '../components/Why';
 import PhoneLogo from '../components/PhoneLogo';
+import logoSuperNova from '../assets/images/logo_supernova.png';
 
 const LoginPage = () => {
 
@@ -13,17 +14,21 @@ const LoginPage = () => {
   
 
   return (
-    <div className='w-screen h-screen flex font-montserrat p-0'>
+    <div className='bg-custom-purple-nova w-screen'>
+
+    <div className='w-full h-screen font-poppins p-0'>
       {/* Header */}
- 
+      <div className='w-max-[1440px]'>
+
       <Header />
 
       {/* Seções da página */}
       <main className='pt-0 '>
         {/* <MainBanner /> */}
         {/* Home Section */}
-
-      <PorqueEscolher />  
+        <PorqueEscolher />  
+      <div>
+      </div>
       <Clubes />
       <Why />
       <PhoneLogo />
@@ -34,6 +39,8 @@ const LoginPage = () => {
       </main>
 
       </div>
+      </div>
+    </div>
   );
 };
 

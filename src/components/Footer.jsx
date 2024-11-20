@@ -3,12 +3,31 @@ import superNovaLogo from '../assets/images/superNovaLogo.svg'; // Atualize para
 import plus18 from '../assets/images/plus18.png'; // Atualize para o caminho correto da imagem
 import insta from '../assets/images/insta.png'; // Atualize para o caminho correto da imagem
 import telegram from '../assets/images/telegram.png'; // Atualize para o caminho correto da imagem
-
+import zapLogoRoxo from '../assets/images/zapLogoRoxo.png'; // Atualize para o caminho correto da imagem
 function Footer() {
   return (
-    <footer className="w-full bg-custom-purple-nova p-8">
+    <footer id="suporte" className="w-full bg-custom-purple-nova pt-16 p-8">
+      <div className='flex flex-col text-center items-center justify-center text-[48px] text-white leading-[56px] pb-16'>
+        <img src={zapLogoRoxo} alt="Logo" className="h-[100px] w-[100px] mb-4" />
+        <p className='pb-14'><strong> Não encontrou suas dúvidas?</strong>
+        <br />
+        <em>Fale conosco agora ao vivo pelo nosso WhatsApp</em>  
+        </p>
+        <a
+          href="https://wa.me/5511975855555"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex pl-20 pr-20 justify-center items-center bg-custom-purple-button text-white font-extrabold py-3 rounded-md shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
+          style={{ boxShadow: '0 4px 6px rgba(0, 0, 0, 0.3)' }}
+        >
+        <span  className="text-[32px] transition-transform duration-300 ease-in-out transform hover:scale-105">
+          Quero falar com o suporte
+        </span>
+      </a>
+      </div>
+
       {/* Container centralizado com largura máxima */}
-      <div className="max-w-[1550px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 bg-custom-purple-button text-white p-10 rounded-lg">
+      <div className="max-w-[1550px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 bg-custom-purple-nova text-white p-10 rounded-lg">
         {/* Seção 1 */}
         <div className="bg-custom-purple-nova p-4 rounded-lg">
           <img src={superNovaLogo} alt="Logo" className="h-8 mb-4" />
