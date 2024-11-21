@@ -7,12 +7,12 @@ import CtaSoliciteOrcamentoYellow from './CtaSoliciteOrcamentoYellow';
 function Clubes() {
   return (
     <div id="clube" className="max-w-[1400px] mx-auto pt-20 bg-custom-purple-nova">
-            <h1 className='text-center text-white font-[40px] font-bold border'>Encontre o melhor torneio para você</h1>
+            <p className='text-center text-white text-[16px] font-bold md:text-[40px] border'>Encontre o melhor torneio para você</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 justify-items-center p-14">
         
   <div className="flex flex-col items-center shadow-lg bg-gray-600/10 p-4 w-full max-w-[585px] h-[381px]">
     <div className="w-[85%] h-[70%] flex items-center justify-center">
-      <img src={logoSuperNova} alt="Logo Super Nova" className="w-full h-full object-contain transition-transform duration-300 hover:scale-105" />
+      <img src={logoSuperNova} alt="Logo Super Nova" className=" object-contain transition-transform duration-300 hover:scale-105" />
     </div>
        <div className="mt-auto mb-4 text-center w-full flex justify-center">
         <CtaSoliciteOrcamentoYellow />

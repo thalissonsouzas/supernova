@@ -24,8 +24,6 @@ const LoginPage = () => {
 
       {/* Seções da página */}
       <main className='pt-0 '>
-        {/* <MainBanner /> */}
-        {/* Home Section */}
         <PorqueEscolher />  
       <div>
       </div>

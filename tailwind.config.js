@@ -31,6 +31,7 @@ export default {
       },
       screens: {
         'custom': '900px',
+        'medio': '930px',
       },
       clipPath: {
         'polygon-tl': 'polygon(0 0, 100% 0, 100% 15%, 0 10%)',  // Inclinação superior
