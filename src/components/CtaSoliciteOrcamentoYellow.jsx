@@ -1,8 +1,11 @@
+import React from 'react';
+
 function CtaSoliciteOrcamento() {
+  
   return (
     <section className="flex w-full">
       <a
-        href="https://wa.me/5511975855555"
+        href="https://wa.me/5511944637120"
         target="_blank"
         rel="noopener noreferrer"
         className="flex w-full justify-center items-center bg-custom-purple-button text-white font-extrabold py-3 rounded-md shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
