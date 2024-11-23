@@ -4,6 +4,7 @@ import plus18 from '../assets/images/plus18.png'; // Atualize para o caminho cor
 import insta from '../assets/images/insta.png'; // Atualize para o caminho correto da imagem
 import telegram from '../assets/images/telegram.png'; // Atualize para o caminho correto da imagem
 import zapLogoRoxo from '../assets/images/zapLogoRoxo.png'; // Atualize para o caminho correto da imagem
+
 function Footer() {
   return (
     <footer id="suporte" className="w-full bg-custom-purple-nova pt-16 p-8">

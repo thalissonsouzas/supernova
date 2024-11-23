@@ -1,3 +1,4 @@
+import React from 'react';
 import carta from '../assets/images/why/cartas.svg';
 import mao from '../assets/images/why/mao.svg';
 import joia from '../assets/images/why/joia.png';
@@ -7,10 +8,10 @@ import atendimento from '../assets/images/why/atendimento.svg';
 
 function Why() {
   return (
-    <div id="sobre" className=" mx-auto bg-custom-purple-nova h-[130vh] max-h-[800px] pt-20 ">
-      <div className="flex justify-center items-center">
-        <h1 className="text-white text-[16px] md:text-[40px] font-bold pb-4 mb-12 border border-b-4 rounded-full px-6 ">
-          Porque escolher a Supernova?
+    <div id="sobre" className=" mx-auto bg-custom-purple-nova h-[130vh] max-h-[800px] md:pt-16 ">
+            <div className="border-t-2 border-custom-purple-button relative pb-16">
+        <h1 className="absolute left-1/2 transform -translate-x-1/2  bg-custom-purple-nova border-2 border-custom-purple-button rounded-full px-6 md:px-16 text-white text-[16px] font-bold md:text-[40px] -top-[10px] md:-top-[25px] whitespace-nowrap">
+          Por que escolher a Supernova?
         </h1>
       </div>
 

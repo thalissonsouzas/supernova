@@ -32,7 +32,7 @@ const PorqueEscolher = () => {
               <img 
                 src={bgLogo} 
                 alt="truck" 
-                className="w-[1100px] absolute pt-18 transform translate-x-[-25px] hidden md:block" />
+                className="w-[1100px] absolute pt-18 md:pt-20 transform translate-x-[-25px] hidden md:block" />
             </div>
           </div>
         </section>
