@@ -4,7 +4,7 @@ import CtaSoliciteOrcamentoYellow from './CtaSoliciteOrcamentoYellow';
 
 const PorqueEscolher = () => {
   return (
-    <div id="home" className='w-full pt-16 flex font-poppins'>
+    <div id="home" className='pt-16 flex font-poppins'>
       {/* section desktop */}
       <main className='mx-auto relative overflow-x-clip '>
 

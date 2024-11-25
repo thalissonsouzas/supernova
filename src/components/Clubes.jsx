@@ -7,7 +7,7 @@ import CtaSoliciteOrcamentoYellow from './CtaSoliciteOrcamentoYellow';
 
 function Clubes() {
   return (
-    <section id="clube" className="max-w-[1400px] mx-auto pt-20 bg-custom-purple-nova flex flex-col">
+    <section id="clube" className="max-w-[1200px] mx-auto pt-20 bg-custom-purple-nova flex flex-col">
 
       <div className="border-t-2 border-custom-purple-button relative">
         <h1 className="absolute left-1/2 transform -translate-x-1/2  bg-custom-purple-nova border-2 border-custom-purple-button rounded-full px-6 md:px-16 text-white text-[16px] font-bold md:text-[40px] -top-[10px] md:-top-[25px] whitespace-nowrap">
@@ -20,8 +20,9 @@ function Clubes() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 justify-items-center p-14 ">
         
   <div className="flex flex-col items-center shadow-lg bg-gray-600/10 p-4 w-full max-w-[585px] h-[381px]">
-    <div className="w-[85%] h-[70%] flex items-center justify-center">
+    <div className="w-[85%] h-[70%] flex flex-col items-center justify-center relative">
       <img src={logoSuperNova} alt="Logo Super Nova" className=" object-contain transition-transform duration-300 hover:scale-105" />
+      {/* <span className='bg-green-500 rounded-md px-4 text-center text-black absolute'>BRL</span> */}
     </div>
        <div className="mt-auto mb-4 text-center w-full flex justify-center">
         <CtaSoliciteOrcamentoYellow />
@@ -30,8 +31,9 @@ function Clubes() {
   </div>
 
   <div className="flex flex-col items-center bg-gray-600/10 shadow-lg   p-4 w-full max-w-[585px] h-[381px]">
-    <div className="w-[85%] h-[70%] flex items-center justify-center">
+    <div className="w-[85%] h-[70%] flex flex-col items-center justify-center">
       <img src={pockets} alt="Logo Pockets" className="w-full h-full object-contain transition-transform duration-300 hover:scale-105" />
+      <span className='bg-yellow-400 text-black rounded-md px-4 text-center'>AUD</span>
     </div>
     <div className="mt-auto mb-4 text-center w-full flex justify-center">
       <CtaSoliciteOrcamentoYellow />
@@ -40,8 +42,9 @@ function Clubes() {
   
 
   <div className="flex flex-col items-center bg-gray-600/10 shadow-lg  p-4 w-full max-w-[585px] h-[381px]">
-    <div className="w-[85%] h-[70%] flex items-center justify-center">
+    <div className="w-[85%] h-[70%] flex flex-col items-center justify-center">
       <img src={cpcLogo} alt="Logo CPC" className="w-full h-full object-contain transition-transform duration-300 hover:scale-105" />
+      <span className='bg-green-500 rounded-md px-4 text-center text-black'>BRL</span>
     </div>
     <div className="mt-auto mb-4 text-center w-full flex justify-center">
       <CtaSoliciteOrcamentoYellow />
@@ -49,8 +52,9 @@ function Clubes() {
   </div>
 
   <div className="flex flex-col items-center bg-gray-600/10 shadow-lg  p-4 w-full max-w-[585px] h-[381px]">
-    <div className="w-[85%] h-[70%] flex items-center justify-center">
+    <div className="w-[85%] h-[70%] flex flex-col items-center justify-center">
       <img src={brotherHLogo} alt="Logo BrotherHood" className="w-full h-full object-contain transition-transform duration-300 hover:scale-105" />
+      <span className='bg-green-500 rounded-md px-4 text-center text-black'>BRL</span>
     </div>
     <div className="mt-auto mb-4 text-center w-full flex justify-center">
       <CtaSoliciteOrcamentoYellow />
