@@ -20,26 +20,26 @@ function Clubes() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 justify-items-center p-14 ">
         
-  <div className="flex flex-col items-center shadow-lg bg-gray-600/10 p-4 w-full max-w-[585px] h-[381px]">
-    <div className="w-[85%] h-[70%] flex flex-col items-center justify-center relative">
-      <img src={logoSuperNova} alt="Logo Super Nova" className=" object-contain transition-transform duration-300 hover:scale-105" />
-      <div>
-        <span className='bg-green-500 text-black rounded-md px-4 mx-1 text-center'>BRL</span>
-        <span className='bg-white text-black rounded-md px-4 text-center'>Liga Particular</span>
-      </div>
+      <div className="flex flex-col items-center shadow-lg bg-gray-600/10 p-4 w-full max-w-[585px] h-[381px]">
+  <div className="w-[85%] h-[70%] flex flex-col items-center justify-center relative">
+    <img src={logoSuperNova} alt="Logo Super Nova" className="object-contain transition-transform duration-300 hover:scale-105" />
+    <div className="flex flex-wrap items-center justify-center space-x-2">
+      <span className="bg-green-500 text-black rounded-md px-4 text-center whitespace-nowrap">BRL</span>
+      <span className="bg-white text-black rounded-md px-4 text-center">Liga Particular</span>
     </div>
-       <div className="mt-auto mb-4 text-center w-full flex justify-center">
-        <CtaSoliciteOrcamentoYellow />
-      </div>
-
   </div>
+  <div className="mt-auto mb-4 text-center w-full flex justify-center">
+    <CtaSoliciteOrcamentoYellow />
+  </div>
+</div>
+
 
   <div className="flex flex-col items-center bg-gray-600/10 shadow-lg   p-4 w-full max-w-[585px] h-[381px]">
     <div className="w-[85%] h-[70%] flex flex-col items-center justify-center">
       <img src={pockets} alt="Logo Pockets" className="w-full h-[90%] pb-4 object-contain transition-transform duration-300 hover:scale-105" />
       <div>
-        <span className='bg-yellow-400 text-black rounded-md px-4 mx-1 text-center'>AUD</span>
-        <span className='bg-blue-500 text-black rounded-md px-4 text-center'>Liga Australiana</span>
+        <span className='bg-yellow-400 text-black rounded-md px-4 m-1 text-center'>AUD</span>
+        <span className='bg-blue-500 text-black rounded-md px-4 text-center whitespace-nowrap'>Liga Australiana</span>
       </div>
     </div>
     <div className="mt-auto mb-4 text-center w-full flex justify-center">
@@ -52,7 +52,7 @@ function Clubes() {
     <div className="w-[85%] h-[70%] flex flex-col items-center justify-center">
       <img src={cpcLogo} alt="Logo CPC" className="w-full h-full object-contain transition-transform duration-300 hover:scale-105" />
       <div>
-        <span className='bg-green-500 text-black rounded-md px-4 mx-1 text-center'>BRL</span>
+        <span className='bg-green-500 text-black rounded-md px-4 m-1 text-center'>BRL</span>
         <span className='bg-red-600 text-black rounded-md px-4 text-center'>Liga Evolution</span>
       </div>
     </div>

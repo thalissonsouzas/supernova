@@ -1,5 +1,4 @@
 import React from 'react';
-import superNovaLogo from '../assets/images/superNovaLogo.svg'; // Atualize para o caminho correto da imagem
 import supernovaLogo from '../assets/images/logo_supernova.png'; 
 import plus18 from '../assets/images/plus18.png'; // Atualize para o caminho correto da imagem
 import insta from '../assets/images/insta.png'; // Atualize para o caminho correto da imagem
