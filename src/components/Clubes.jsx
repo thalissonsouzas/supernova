@@ -66,8 +66,9 @@ function Clubes() {
       <img src={brotherHLogo} alt="Logo BrotherHood" className="w-full h-full object-contain transition-transform duration-300 hover:scale-105" />
       <div>
         <span className='bg-green-500 text-black rounded-md px-4 mx-1 text-center'>BRL</span>
-        <span className='bg-orange-500 text-black rounded-md px-4 mx-1 text-center'>Liga 388</span>
-        <span className='bg-white text-black rounded-md px-4 text-center'>Liga Particular</span>
+        <span className='bg-orange-500 text-black rounded-md px-4 mx-1 text-center whitespace-nowrap'>Liga 388</span>
+        <br />
+        <span className='bg-white text-black rounded-md px-4 text-center ml-4'>Liga Particular</span>
       </div>
     </div>
     <div className="mt-auto mb-4 text-center w-full flex justify-center">
