@@ -1,5 +1,6 @@
 import React from 'react';
 import superNovaLogo from '../assets/images/superNovaLogo.svg'; // Atualize para o caminho correto da imagem
+import supernovaLogo from '../assets/images/logo_supernova.png'; 
 import plus18 from '../assets/images/plus18.png'; // Atualize para o caminho correto da imagem
 import insta from '../assets/images/insta.png'; // Atualize para o caminho correto da imagem
 import telegram from '../assets/images/telegram.png'; // Atualize para o caminho correto da imagem
@@ -44,7 +45,7 @@ function Footer() {
       <div className="w-full max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 bg-custom-purple-button md:bg-custom-purple-nova text-white p-10 rounded-lg">
         {/* Seção 1 */}
         <div className="p-4 rounded-lg">
-          <img src={superNovaLogo} alt="Logo" className="h-8 mb-4" />
+          <img src={supernovaLogo} alt="Logo" className="" />
           <p>
             Supernova é a plataforma ideal para jogadores de poker que buscam se conectar com os melhores clubes.
             Nosso objetivo é simplificar sua jornada no poker, oferecendo acesso fácil a clubes, eventos e uma comunidade apaixonada pelo jogo.

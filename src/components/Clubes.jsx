@@ -7,7 +7,7 @@ import CtaSoliciteOrcamentoYellow from './CtaSoliciteOrcamentoYellow';
 
 function Clubes() {
   return (
-    <section id="clube" className=" mx-auto pt-20 bg-custom-purple-nova flex flex-col">
+    <section id="clube" className="w-full mx-auto pt-20 bg-custom-purple-nova flex flex-col">
       <div className="flex flex-col items-center bg-custom-purple-nova">
 
       <div className="border-t-2 border-custom-purple-button relative">
